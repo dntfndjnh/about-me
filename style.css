@@ -1,0 +1,22 @@
+/* style.css */
+body { background: #f0f0f0; font-family: 'Malgun Gothic', 'Dotum', sans-serif; padding: 20px; color: #333; }
+.wiki-wrapper { max-width: 900px; margin: auto; background: #fff; padding: 30px; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+
+/* 제목 스타일 */
+h1 { border-bottom: 2px solid #00a69c; padding-bottom: 10px; color: #00a69c; font-size: 2em; }
+h2 { border-bottom: 1px solid #ccc; margin-top: 40px; padding-bottom: 5px; color: #000; font-size: 1.5em; }
+
+/* 프로필 박스: 네모 현상 제거 */
+.wiki-profile { float: right; width: 300px; margin: 0 0 20px 20px; border: 1px solid #aaa; background: #f9f9f9; border-collapse: collapse; }
+.wiki-profile th { background: #eee; width: 35%; text-align: left; padding: 8px; border: 1px solid #ccc; font-size: 0.9em; }
+.wiki-profile td { padding: 8px; border: 1px solid #ccc; font-size: 0.9em; }
+.profile-name { text-align: center; font-size: 1.3em !important; background: #00a69c !important; color: #fff !important; }
+.profile-img { width: 100%; height: 300px; background: #ddd; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+
+/* 목차 스타일 개선 */
+.wiki-toc { border: 1px solid #aaa; background: #f9f9f9; padding: 15px; margin: 20px 0; width: 250px; display: inline-block; }
+.toc-title { font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+.wiki-toc ol { padding-left: 20px; margin: 0; }
+.wiki-toc li { margin-bottom: 8px; }
+.wiki-toc a { text-decoration: none; color: #0055a4; font-size: 0.95em; }
+.wiki-toc a:hover { text-decoration: underline; }
